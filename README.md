@@ -1,2 +1,8 @@
 # Tour-of-Heroes
-This repository is AngularJS Tutorials
+====
+
+## Description
+This repository is AngularJS Tutorials.  
+The development to learn AngularJS.  
+  
+[https://angular.io/tutorial](https://angular.io/tutorial)
