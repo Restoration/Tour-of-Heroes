@@ -23,3 +23,42 @@ By the end of the tutorial you will be able to do the following:
 - Use routing to navigate among different views and their components.
   
 [https://angular.io/tutorial](https://angular.io/tutorial)
+
+# What's AngularJS
+Angular is open source softweare which was developed by Google and user community. Angualar is MVW framework. It means Model-View-Whatever. The Angular develop complcated web application for frontend to easy. It can also data binding, DI etc.
+
+
+##  Install angular
+```
+$ npm install -g @angular/cli
+```
+You can't name `app` for project.
+```
+$ ng new my-app
+$ cd my-app
+$ ng serve --open
+```
+
+```
+$ vim  ./src/app/app.component.ts
+```
+
+```javascript
+export class AppComponent {
+  title = 'My First Angular App!';
+}
+```
+
+```
+$ vim src/app/app.component.css
+```
+
+```css
+h1 {
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+}
+```
+
+
